@@ -1,0 +1,12 @@
+rootProject.name = 'Microservice'
+
+include ":apps:accounts", "apps:oauth", "libs:shared"
+
+//include 'apps:accounts'
+//findProject(':apps:accounts')?.name = 'accounts'
+//
+//include 'apps:oauth'
+//findProject(':apps:oauth')?.name = 'oauth'
+//
+//include 'libs:shared'
+//findProject(':libs:shared')?.name = 'shared'
